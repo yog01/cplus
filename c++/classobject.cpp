@@ -34,7 +34,6 @@ int main()
 {
 	char name[20];
 	employee a;
-
 	a.putname("tom");
 	a.putwage(700);
 	a.getname(name);
