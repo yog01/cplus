@@ -28,6 +28,5 @@ int main()
 	ob.putname("tom");
 	ob.getname(name);
 	cout<<"name"<<name;
-
 	return 0;
 }
