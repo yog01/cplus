@@ -9,7 +9,7 @@ union data{
 	unsigned short d;
 };
 
-voiddata::swap()
+void data::swap()
 {
 	unsigned char t;
 	
