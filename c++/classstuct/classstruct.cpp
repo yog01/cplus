@@ -25,7 +25,7 @@ int main()
 {
 	employee ob;
 	char name[20];
-	ob.putname("tom");
+	ob.putname("tomcrusi");
 	ob.getname(name);
 	cout<<"name"<<name;
 	return 0;
