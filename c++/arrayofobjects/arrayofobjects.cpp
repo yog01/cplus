@@ -31,7 +31,7 @@ public:
 		return j;
 	}
 };
-//function memory is allocated 1st than object decleartion data meber memory is allocated
+//function memory is allocated 1st at defination than object decleartion data meber memory is allocated
 int main(int argc, char **argv) {
 	acces_object ob[3];
 
