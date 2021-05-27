@@ -29,6 +29,26 @@ public:
 			cout<<"\n value"<<i;
 	}
 };
+/*class derived: private base{
+private:
+	int i;
+	base(){}
+	base(int x):i(x){
+
+	}
+	void show(){
+		cout<<"\n value"<<i;
+	}
+public:
+	derived(){}
+	void change(int x){
+		i=x;
+	}
+	void showk(){
+			cout<<"\n value"<<i;
+	}
+};
+*/
 
 int main()
 {
