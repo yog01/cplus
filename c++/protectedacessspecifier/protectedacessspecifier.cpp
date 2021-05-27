@@ -1,64 +1,69 @@
 /*
  * protectedacessspecifier.cpp
  *
- *  Created on: 26 May 2021
+ *  Created on: 27 May 2021
  *      Author: yo
  */
+//prtected call explitily function inherited by base(protected) and in private fn wont come both create object of derived in main
+
 #include <iostream>
 using namespace std;
 
 class base{
 protected:
-	int i,j;
+	int i;
 public:
-	void set(int x, int y)
-	{
+	void setv(int x){
 		i=x;
-		j=y;
 	}
 	void show()
 	{
 		cout<<"\n value of i"<<i;
-		cout<<"\n value of j"<<j;
 	}
+
 };
-class derived1: public base{
-	int k;
+class derived :protected base{
 public:
-	void setadd()
-	{
-		k=i+j;
+	void setvd(int h){
+		setv(h);
 	}
-	void showadd()
+	void showvd()
 	{
-		cout<<"\n value od addition"<<k;
+		show();
 	}
 
 };
-
-class derived2: public derived1{
-	int o;
-public:
-	void setmin(){
-		o=i-j;
+/*
+ * class derived :protected base{
+ * protected:
+	int i;
+	void setv(int x){
+		i=x;
 	}
-	void showmin()
+	void show()
 	{
-		cout<<"\n value od sub"<<o;
+		cout<<"\n value of i"<<i;
 	}
+ *
+	public:
+	void setvd(int h){
+		setv(h);
+	}
+	void showvd()
+	{
+		show();
+	}
+
 };
-int main(int argc, char **argv) {
+*/
 
-	derived2 ob2;
-	ob2.set(5, 5);
-	ob2.show();
 
-	ob2.setadd();
-	ob2.showadd();
+int main(){
 
-	ob2.setmin();
-	ob2.showmin();
+	derived ob;
+
+	ob.setvd(10);
+	ob.showvd();
 
 	return 0;
 }
-
