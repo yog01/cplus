@@ -1,0 +1,1 @@
+conaddescallinhritance.o: ../conaddescallinhritance.cpp
