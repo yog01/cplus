@@ -4,7 +4,7 @@
  *  Created on: 4 Jun 2021
  *      Author: yo
  */
-//pointer contains derived class that class fuction are called
+//pointer contains derived class that class virtual fuction are called
 //virtual function are single interface mutiple defination.
 //virtual cnnot be ferind.
 //remove virtual and typecast pointer of base object to derived class to call derived functions.
