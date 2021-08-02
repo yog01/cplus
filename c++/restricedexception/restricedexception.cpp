@@ -5,7 +5,7 @@
  *      Author: yo
  */
 /* in this program, the function fun() may only throw integer,
- * character, and double exception. If it attempts to thro any
+ * character, and double exception. If it attempts to throw any
  * other type of exception, and abnormal program terination will
  * occur. (That is, unexpectedd() will be called.)
  * */
