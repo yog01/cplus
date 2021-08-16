@@ -35,7 +35,7 @@ ostream &operator<<(ostream &s,over o) //overloaded stream
 int main()
 {
 	over ob("ram",1),ob2("sham",2);
-	cout<<ob<<"\n"<<ob2;
+	cout<<ob<<" \n"<<ob2;
 
 	return 0;
 }
