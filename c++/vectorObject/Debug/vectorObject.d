@@ -1,0 +1,1 @@
+vectorObject.o: ../vectorObject.cpp
