@@ -1,1 +1,0 @@
-mapobj.o: ../mapobj.cpp
