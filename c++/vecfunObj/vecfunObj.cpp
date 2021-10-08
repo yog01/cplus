@@ -11,9 +11,9 @@
 
 using namespace std;
 
-class divdd: unary_function<float,float>{
+class divdd: unary_function<float,float>{ //divdd function userdefine object function
 public:
-	result_type operator()(argument_type i)
+	result_type operator()(argument_type i) //overloade () operator
 	{
 		return i/10;
 	}
